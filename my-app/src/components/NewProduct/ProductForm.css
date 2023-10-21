@@ -1,0 +1,46 @@
+.new-product-wrapper {
+  background-color: rgb(136, 0, 255);
+  padding: 20px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.product-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product-form input {
+  border: none;
+  padding: 6px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 2px;
+}
+
+.product-form input,
+.product-form button {
+  flex: 1 0 0;
+}
+
+.product-form button {
+  margin-top: 10px;
+  height: 30px;
+}
+.product-form button.cancel {
+  background-color: red;
+}
+
+.product-form .product-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-basis: 100%;
+}
