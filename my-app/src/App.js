@@ -8,11 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <Products />
-      <Counter
-        counter={counter}
-        setCounter={setCounter}
-        productPrice={counter}
-      >
+      <Counter counter={counter} setCounter={setCounter} productPrice={counter}>
         {counter}
       </Counter>
     </div>

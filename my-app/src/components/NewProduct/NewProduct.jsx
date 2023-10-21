@@ -10,9 +10,13 @@ const NewProduct = ({ products, setProducts }) => {
   return (
     <div className="new-product-wrapper">
       {isOpen ? (
-        <ProductForm onSaveProduct={onSaveProduct} products={products} setIsOpen={setIsOpen} />
+        <ProductForm
+          onSaveProduct={onSaveProduct}
+          products={products}
+          setIsOpen={setIsOpen}
+        />
       ) : (
-        <AddProduct  setIsOpen={setIsOpen}/>
+        <AddProduct setIsOpen={setIsOpen} />
       )}
     </div>
   );

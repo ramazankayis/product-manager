@@ -15,11 +15,16 @@ const Products = () => {
       <div className="products">
         {products.length > 0 ? (
           products.map((product) => (
-            <ProductItem key={product.id} product={product}  setProducts={setProducts} products={products}/>
+            <ProductItem
+              key={product.id}
+              product={product}
+              setProducts={setProducts}
+              products={products}
+            />
           ))
         ) : (
           <p> Hiç ürün yok</p>
-        )} 
+        )}
       </div>
     </div>
   );

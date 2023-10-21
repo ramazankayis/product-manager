@@ -74,8 +74,14 @@ const ProductForm = (props) => {
         />
       </div>
       <div className="form-buttons">
-      <button className="product-form-button">Ürün ekle</button>
-      <button className="product-form-button cancel" type="button" onClick={()=>props.setIsOpen (false)}>Vazgeç</button>
+        <button className="product-form-button">Ürün ekle</button>
+        <button
+          className="product-form-button cancel"
+          type="button"
+          onClick={() => props.setIsOpen(false)}
+        >
+          Vazgeç
+        </button>
       </div>
     </form>
   );
